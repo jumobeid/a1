@@ -58,7 +58,7 @@ img{
 
 
 
- echo $messages[rand(0, count($messages) - 1)];
+ echo $messages[mt_rand(0, count($messages) - 1)];
 
 ?>
 
