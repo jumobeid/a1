@@ -44,19 +44,23 @@ img{
     </div>
     <div class="col-md-2"></div>
   </div><br><br>
+<?php
 
-  <?php
+ $messages = array(
 
-   //this code is from http://stackoverflow.com/questions/5857033/displaying-random-text
+     "love is stronger than justice",
 
-   $messages = array(
-       "love is stronger than justice",
-       "beauty is in the eyes of the beholder",
-       "Every thing you ever wanted is on the other side of fear"
-   );
+     "beauty is in the eyes of the beholder",
 
-   echo $messages[rand(0, count($messages) - 1)];
-  ?>
+     "Every thing you ever wanted is on the other side of fear"
+
+ );
+
+
+
+ echo $messages[rand(0, count($messages) - 1)];
+
+?>
 
 
 </body>
